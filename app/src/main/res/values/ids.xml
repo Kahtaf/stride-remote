@@ -1,0 +1,14 @@
+<resources>
+    <item name="speed" type="id" />
+    <item name="slower" type="id" />
+    <item name="faster" type="id" />
+    <item name="start" type="id" />
+    <item name="stop" type="id" />
+    <item name="scan" type="id" />
+    <item name="session_scroll" type="id" />
+    <item name="session_steps" type="id" />
+    <item name="session_distance" type="id" />
+    <item name="session_time" type="id" />
+    <item name="mode_manual" type="id" />
+    <item name="mode_auto" type="id" />
+</resources>

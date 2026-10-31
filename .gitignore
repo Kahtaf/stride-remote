@@ -1,0 +1,32 @@
+# Gradle / Android / editor state
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# Local QA, research, downloads, and generated distributions
+qa/
+references/
+artifacts/
+.tooling/
+.codex/
+
+# Credentials and signing material
+.signing/
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+**/password
+**/password.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/

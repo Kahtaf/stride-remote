@@ -1,0 +1,35 @@
+name: Bug report
+description: Report a connection, control, or display problem.
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: App version
+    validations:
+      required: true
+  - type: input
+    id: watch
+    attributes:
+      label: Watch model and Wear OS version
+    validations:
+      required: true
+  - type: input
+    id: pad
+    attributes:
+      label: Walking pad model and Bluetooth name
+      description: Omit serial numbers and Bluetooth addresses.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Include the steps, expected result, actual result, and whether the belt was moving.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Optional diagnostics
+      description: Remove device addresses, serial numbers, account details, and other private information before posting.

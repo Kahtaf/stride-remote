@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 108 108" role="img" aria-label="Stride Remote: walking on a treadmill">
+  <rect width="108" height="108" rx="54" fill="#BAF5CE"/>
+  <path d="M64,30A5,5 0,1 1,54,30A5,5 0,1 1,64,30" fill="#080C0B"/>
+  <path d="M56,41L51,54L59,62L64,70M51,54L46,63L40,70M56,41L61,49L68,49M55,42L47,39L39,46" fill="none" stroke="#080C0B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M36,79L72,79" fill="none" stroke="#080C0B" stroke-width="4" stroke-linecap="round"/>
+</svg>

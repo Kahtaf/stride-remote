@@ -1,0 +1,25 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'dev.kahtaf.walkpad'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'dev.kahtaf.walkpad'
+        minSdk 33
+        targetSdk 35
+        versionCode providers.gradleProperty('appVersionCode').get().toInteger()
+        versionName providers.gradleProperty('appVersionName').get()
+        testInstrumentationRunner 'dev.kahtaf.walkpad.SmokeInstrumentation'
+    }
+    buildFeatures { buildConfig true }
+    buildTypes {
+        release { minifyEnabled false }
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    lint { abortOnError true; checkReleaseBuilds true }
+}
+dependencies {
+    implementation 'androidx.wear:wear-ongoing:1.1.0'
+    implementation 'androidx.core:core:1.15.0'
+    testImplementation 'junit:junit:4.13.2'
+}
